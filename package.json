@@ -1,16 +1,12 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
+  "name": "secret-santa",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-	  "grunt": "0.4.2",
-    "express": "3.x",
-	  "underscore": "1.5.2",
-	  "mongoose": "3.8.1",
-	  "express-mailer": "0.2.0",
-    "request": "*"
+    "underscore": "1.8.3",
+    "emailjs": "~0.3.12"
   }
 }
